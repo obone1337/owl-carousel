@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>DJ LTD</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Disc Jockey LTD</h1>
+
+    <!-- carousel -->
+    <div class="owl-carousel">
+    <div class="item"><img src="img/dj_man.jpg"></div>
+    <div class="item"><img src="img/turntables.jpg"></div>
+    <div class="item"><img src="img/volume.jpg"></div>
+    <div class="item"><img src="img/scratch.jpg"></div>
+    <div class="item"><img src="img/knobs.jpeg"></div>
+    <div class="item"><img src="img/mac.jpg"></div>
+    <div class="item"><img src="img/dials.jpg"></div>
+    <div class="item"><img src="img/setup.jpeg"></div>
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1,
+          loop : true,
+          margin : 5,
+          autoplay : true,
+          autoplayTimeout : 5000,
+          autoplayHoverPause : true
+      })
+     })
+    </script>
+  </body>
+</html>
